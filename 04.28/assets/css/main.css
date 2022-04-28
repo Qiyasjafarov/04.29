@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url('../image/rucka.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0%;
+}
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+.h1text{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 35vh;
+    color: rgb(43, 45, 46);
+    
+}
+.h3text{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(43, 45, 46);
+    font-style: italic;
+
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #1D809F;
+    padding: 20px 30px;
+    border: 1px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 5vh;
+    margin-left: 90vh;
+}
+.clear{
+    clear: both;
+}
+.middle,.middle2{
+    height: 60vh;
+    width: 100%;
+    margin: 0%;
+}
+.txt1{
+    font-size: 30px;
+    padding-left: 50vh;
+    padding-top: 15vh;
+    color: rgb(43, 45, 46);
+    font-weight: bold;
+}
+.txt2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(43, 45, 46);
+     
+}
+.button2{
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 20px 30px;
+    border: 1px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 5vh;
+    margin-left: 90vh;
+}
+.middle2{
+    background-color: #1D809F;
+}
+.mtxt{
+    text-align: center;
+    color: #ecab20;
+    font-weight: 600;
+    padding-top: 125px;
+}
+.mtxt2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.icon,.icon2,.icon3,.icon4{
+text-align: center;
+margin-left: 220px;
+margin-top: 30px;
+color:#1D809F ;
+border-radius: 100%;
+background-color: white;
+width: 90px;
+font-size: 55px;
+padding: 15px;
+float: left;
+
+}
+.txtm1{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 205px;
+}
+.txtm2{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 180px;
+}
+.txtm3{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 210px;
+}
+.txtm4{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 215px;
+}
+.txtmm1{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 160px;
+}
+.txtmm2{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 95px;
+}
+.txtmm3{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 105px;
+}
+.txtmm4{
+    float: left;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 125px;
+}
+
+.welcome{
+    background-image: url('../image/bg-callout.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0%;
+}
+
+.wtext{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(43, 45, 46);
+}
+.alltext{
+    padding-top: 300px;
+}
+.mtxt3{
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.bottom2{
+    height: 110vh;
+    width: 100%;
+    
+}
+.card1{
+    width: 40%;
+    height: 390px;
+    background-image: url('/assets/image/portfolio-1.jpg');
+    float: left;
+    margin-left: 100px;
+    transition: all .3s ease;
+    cursor: pointer;
+   
+}
+.card1:hover {
+    
+    transform: scale(0.9);
+opacity: 0.7;    
+}
+.card2:hover {
+    
+    transform: scale(0.9);
+    opacity: 0.7;    
+
+    
+}
+.card3:hover {
+    
+    transform: scale(0.9);
+    opacity: 0.7;    
+
+    
+}
+.card4:hover {
+    
+    transform: scale(0.9);
+    opacity: 0.7;    
+
+    
+}
+.card2{
+    width: 40%;
+    height: 390px;
+    background-image: url('/assets/image/portfolio-2.jpg');
+    float: left;
+    transition: all .3s ease;
+    cursor: pointer;
+
+    
+}
+.card3{
+    width: 40%;
+    height: 390px;
+    background-image: url('/assets/image/portfolio-3.jpg');
+    float: left;
+    margin-left: 100px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.card4{
+    width: 40%;
+    height: 390px;
+    background-image: url('/assets/image/portfolio-4.jpg');
+    float: left;
+    transition: all .3s ease;
+    cursor: pointer;
+
+    
+}
